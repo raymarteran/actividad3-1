@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.top-section {
+    height: 60vh;
+    background-image: url('./assets/sectiontopback.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:0.9;
+}
+
+.top-section h1 {
+    font-family: 'gideon-roman', serif;
+}
+.top-section p {
+    font-family: 'gidugu', serif;
+}
+.top-section button {
+    font-family: 'gidugu', serif;
+}
+
+@theme {
+    --color-primary: #D6BEA1;
+    --color-secondary: #231C1C;
+}   
