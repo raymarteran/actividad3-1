@@ -37,7 +37,7 @@ function Services() {
                 <h2 className="text-5xl font-family-gideon mb-12">Servicios</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 w-10/12 font-family-gideon ">
                     {services.map((service) => (
-                        <div key={service.id} className="flex flex-col items-center justify-start text-center h-80">
+                        <div key={service.id} className="flex flex-col items-center justify-start text-center h-80 hover:scale-105 transition-all duration-600 cursor-pointer">
                             <img src={service.image} alt={service.name} className="w-full h-48 object-cover rounded-3xl" />
                             <h3 className="text-2xl py-4">{service.name}</h3>
                             <p className="text-gray-600 text-xl px-4 flex-grow flex items-center justify-center">{service.description}</p>
