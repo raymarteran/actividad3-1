@@ -18,14 +18,14 @@ function Blog() {
         {
             id: 2,
             image: imagenBlog2,
-            title: "Aventuras Gastronómicas",
-            description: "Descubre la mejor comida local y sabores tradicionales"
+            title: "Aventuras Salvajes",
+            description: "Visita los zoologicos mas cercanos y conoce a los animales mas exoticos"
         },
         {
             id: 3,
             image: imagenBlog3,
-            title: "Relax y Bienestar",
-            description: "Encuentra tu paz en los mejores spas y centros de relajación"
+            title: "Disfrute familiar",
+            description: "Encuentra la mejor recreacion en la montaña de los suenos"
         },
         {
             id: 4,
