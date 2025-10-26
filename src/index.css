@@ -22,4 +22,6 @@
 @theme {
     --color-primary: #D6BEA1;
     --color-secondary: #231C1C;
+    --font-family-gideon: 'gideon-roman', serif;
+    --font-family-gidugu: 'gidugu', serif;
 }   
